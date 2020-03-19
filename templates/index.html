@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dojo Ajax</title>
+</head>
+<body>
+<script src="{{ url_for('static', filename='/jump_motherfucker.js') }}" defer></script>
+<h2> Current time</h2>
+<button type="button" id="time" class="button">Time</button>
+<div id="current-time">
+<p> time here </p>
+</div>
+
+
+<p><label>Select list</label>
+    <select id = "mylist">
+        <option value = "warsaw,pl">Warsaw</option>
+        <option value = "berlin,de">Berlin</option>
+        <option value = "london,uk">London</option>
+        <option value = "rome,it">Rome</option>
+    </select>
+</p>
+
+
+
+<div id="weather">
+    <table>
+        <thead>
+        <th>temperature</th>
+        <th>sky conditions</th>
+        <th>humidity</th>
+        </thead>
+        <tbody id="mytablebody">
+
+
+        </tbody>
+    </table>
+
+</div>
+
+
+</body>
+</html>
